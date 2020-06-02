@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gispurabuleleng"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\UTSSMT6\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\UTSSMT6\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:44:5-79
+11-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:44:22-76
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:5:5-42:19
+22        android:allowBackup="true"
+22-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:6:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\da95e0dd41fd0c634661df2a0f122634\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:7:9-43
+26        android:label="@string/app_name"
+26-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:8:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:9:9-54
+28        android:supportsRtl="true"
+28-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:10:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:11:9-40
+31        <activity android:name="com.example.gispurabuleleng.DetailActivity" />
+31-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:12:9-61
+31-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:12:19-49
+32        <!--
+33             The API key for Google Maps-based APIs is defined as a string resource.
+34             (See the file "res/values/google_maps_api.xml").
+35             Note that the API key is linked to the encryption key used to sign the APK.
+36             You need a different API key for each encryption key, including the release key that is used to
+37             sign the APK for publishing.
+38             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+39        -->
+40        <activity
+40-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:21:9-23:59
+41            android:name="com.example.gispurabuleleng.MapsActivity"
+41-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:22:13-41
+42            android:label="@string/title_activity_maps" />
+42-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:23:13-56
+43        <activity android:name="com.example.gispurabuleleng.Splashscreen" >
+43-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:24:9-30:20
+43-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:24:19-47
+44            <intent-filter>
+44-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:25:13-29:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:26:17-69
+45-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:26:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:28:17-77
+47-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:28:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.example.gispurabuleleng.MainActivity" >
+50-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:31:9-37:20
+50-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:31:19-47
+51            <intent-filter>
+51-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:32:13-36:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:26:17-69
+52-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:26:25-66
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:35:17-76
+54-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:35:27-73
+55            </intent-filter>
+56        </activity>
+57
+58        <meta-data
+58-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:39:9-41:55
+59            android:name="com.google.android.geo.API_KEY"
+59-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:40:13-58
+60            android:value="@string/google_maps_key" />
+60-->D:\UTSSMT6\app\src\main\AndroidManifest.xml:41:13-52
+61        <!-- Needs to be explicitly declared on P+ -->
+62        <uses-library
+62-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+63            android:name="org.apache.http.legacy"
+63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+64            android:required="false" />
+64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\a9ed8aaed483b33b1021fe1efd2e7709\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+65
+66        <provider
+66-->[com.squareup.picasso:picasso:2.71828] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\531ffd3309b5e75c92c393031669cf94\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+67            android:name="com.squareup.picasso.PicassoProvider"
+67-->[com.squareup.picasso:picasso:2.71828] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\531ffd3309b5e75c92c393031669cf94\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+68            android:authorities="com.example.gispurabuleleng.com.squareup.picasso"
+68-->[com.squareup.picasso:picasso:2.71828] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\531ffd3309b5e75c92c393031669cf94\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+69            android:exported="false" />
+69-->[com.squareup.picasso:picasso:2.71828] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\531ffd3309b5e75c92c393031669cf94\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\e2c213d4dfcecf7d0961805c3c2450f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Gede Nanda\.gradle\caches\transforms-2\files-2.1\752a983649401b2c06f8f162da3a35f7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+79    </application>
+80
+81</manifest>
